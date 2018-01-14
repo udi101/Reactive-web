@@ -1,0 +1,42 @@
+﻿[
+  {
+    "name": "udi",
+    "last": "mazor",
+    "age": 43,
+    "degrees": [ "B.sc" ],
+    "address": {
+      "street": "Levi Eshkol",
+      "streetNumber": 105
+    }
+  },
+  {
+    "name": "erez",
+    "last": "mazor",
+    "age": 7,
+    "degrees": [ "B.sc", "M.hd" ],
+    "address": {
+      "street": "Levi Eshkol",
+      "streetNumber": 105
+    }
+  },
+  {
+    "name": "ella",
+    "last": "fingrit",
+    "age": 32,
+    "degrees": [ "B.A" ],
+    "address": {
+      "street": "hashomer",
+      "streetNumber": 52
+    }
+  },
+  {
+    "name": "avigail",
+    "last": "mazor",
+    "age": 3,
+    "degrees": [ "B.A" ],
+    "address": {
+      "street": "Levi Eshkol",
+      "streetNumber": 95
+    }
+  }
+]
