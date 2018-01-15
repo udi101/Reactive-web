@@ -1,9 +1,0 @@
-D:\websites\Server\Reactive\Reactive.BL.Interfaces\bin\Debug\netstandard2.0\Reactive.BL.Interfaces.deps.json
-D:\websites\Server\Reactive\Reactive.BL.Interfaces\bin\Debug\netstandard2.0\Reactive.BL.Interfaces.dll
-D:\websites\Server\Reactive\Reactive.BL.Interfaces\bin\Debug\netstandard2.0\Reactive.BL.Interfaces.pdb
-D:\websites\Server\Reactive\Reactive.BL.Interfaces\obj\Debug\netstandard2.0\Reactive.BL.Interfaces.csprojResolveAssemblyReference.cache
-D:\websites\Server\Reactive\Reactive.BL.Interfaces\obj\Debug\netstandard2.0\Reactive.BL.Interfaces.csproj.CoreCompileInputs.cache
-D:\websites\Server\Reactive\Reactive.BL.Interfaces\obj\Debug\netstandard2.0\Reactive.BL.Interfaces.AssemblyInfoInputs.cache
-D:\websites\Server\Reactive\Reactive.BL.Interfaces\obj\Debug\netstandard2.0\Reactive.BL.Interfaces.AssemblyInfo.cs
-D:\websites\Server\Reactive\Reactive.BL.Interfaces\obj\Debug\netstandard2.0\Reactive.BL.Interfaces.dll
-D:\websites\Server\Reactive\Reactive.BL.Interfaces\obj\Debug\netstandard2.0\Reactive.BL.Interfaces.pdb

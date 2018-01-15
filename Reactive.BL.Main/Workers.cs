@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using System.Web.Hosting;
-
+using System.IO;
 using Newtonsoft.Json;
-using Reactive.Models; 
-
+using Common.Entities;
 namespace Reactive.BL.Main
 {
-    class Workers
+    public class Workers
     {
         public IEnumerable<Worker> GetWorkers() {
             var filepath = HostingEnvironment.MapPath(@"~/App_Data/workers.json");

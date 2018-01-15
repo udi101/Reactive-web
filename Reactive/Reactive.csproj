@@ -183,8 +183,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Address.cs" />
-    <Compile Include="Models\Worker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -252,6 +250,19 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Reactive.Common.csproj">
+      <Project>{d3f33837-1314-4c88-affd-530123c288ac}</Project>
+      <Name>Reactive.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Reactive.BL.Main\Reactive.BL.Main.csproj">
+      <Project>{419d3f4d-098c-40e0-a5eb-86c84eb197d6}</Project>
+      <Name>Reactive.BL.Main</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

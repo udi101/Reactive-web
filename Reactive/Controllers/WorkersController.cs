@@ -1,7 +1,8 @@
-﻿using Reactive.Models;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Web.Http;
-
+using Reactive.BL.Main;
+using Newtonsoft.Json;
+using Common.Entities;
 
 namespace Reactive.Controllers
 {
@@ -9,9 +10,10 @@ namespace Reactive.Controllers
     public class WorkersController : ApiController
     {
         // GET: api/Workers
-        public void Get()
+        public IEnumerable<Worker> Get()
         {
-            return;
+            Workers workers = new Workers();
+            return workers.GetWorkers();
         }
 
         // GET: api/Workers/5

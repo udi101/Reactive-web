@@ -1,0 +1,5 @@
+D:\websites\Server\Reactive\Common\bin\Debug\Common.dll
+D:\websites\Server\Reactive\Common\bin\Debug\Common.pdb
+D:\websites\Server\Reactive\Common\obj\Debug\Reactive.Common.csproj.CoreCompileInputs.cache
+D:\websites\Server\Reactive\Common\obj\Debug\Common.dll
+D:\websites\Server\Reactive\Common\obj\Debug\Common.pdb

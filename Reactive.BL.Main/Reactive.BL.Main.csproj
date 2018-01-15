@@ -48,14 +48,14 @@
     <Compile Include="Workers.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Reactive\Reactive.csproj">
-      <Project>{C9254D74-05E9-4539-ACD2-219615614461}</Project>
-      <Name>Reactive</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Reactive.Common.csproj">
+      <Project>{d3f33837-1314-4c88-affd-530123c288ac}</Project>
+      <Name>Reactive.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

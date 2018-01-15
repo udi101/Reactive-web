@@ -46,3 +46,8 @@ D:\websites\Server\Reactive\Reactive\bin\Microsoft.AI.WindowsServer.xml
 D:\websites\Server\Reactive\Reactive\bin\Microsoft.AI.Web.xml
 D:\websites\Server\Reactive\Reactive\obj\Debug\Reactive.dll
 D:\websites\Server\Reactive\Reactive\obj\Debug\Reactive.pdb
+D:\websites\Server\Reactive\Reactive\bin\Common.dll
+D:\websites\Server\Reactive\Reactive\bin\Reactive.BL.Main.dll
+D:\websites\Server\Reactive\Reactive\bin\Common.pdb
+D:\websites\Server\Reactive\Reactive\bin\Reactive.BL.Main.pdb
+D:\websites\Server\Reactive\Reactive\bin\Reactive.BL.Main.dll.config
