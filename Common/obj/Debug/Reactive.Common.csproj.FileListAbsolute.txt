@@ -10,3 +10,11 @@ C:\Websites\Reactive-web\Common\obj\Debug\Common.dll
 C:\Websites\Reactive-web\Common\obj\Debug\Common.pdb
 C:\Websites\Reactive-web\Common\bin\Debug\Newtonsoft.Json.dll
 C:\Websites\Reactive-web\Common\bin\Debug\Newtonsoft.Json.xml
+D:\websites\Server\Reactive-web\Common\bin\Debug\Common.dll
+D:\websites\Server\Reactive-web\Common\bin\Debug\Common.pdb
+D:\websites\Server\Reactive-web\Common\bin\Debug\Newtonsoft.Json.dll
+D:\websites\Server\Reactive-web\Common\bin\Debug\Newtonsoft.Json.xml
+D:\websites\Server\Reactive-web\Common\obj\Debug\Reactive.Common.csprojResolveAssemblyReference.cache
+D:\websites\Server\Reactive-web\Common\obj\Debug\Reactive.Common.csproj.CoreCompileInputs.cache
+D:\websites\Server\Reactive-web\Common\obj\Debug\Common.dll
+D:\websites\Server\Reactive-web\Common\obj\Debug\Common.pdb
