@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Common.Entities
+﻿namespace Common.Entities
 {
     public class Worker
     {
-        string Name;
+        public string Name { get; set; }
+        public string _MyProperty { get; set; }
+        public int Age { get; set; }
     }
 }

@@ -9,3 +9,16 @@ D:\websites\Server\Reactive\Reactive.BL.Main\obj\Debug\Reactive.BL.Main.dll
 D:\websites\Server\Reactive\Reactive.BL.Main\obj\Debug\Reactive.BL.Main.pdb
 D:\websites\Server\Reactive\Reactive.BL.Main\bin\Debug\Common.dll
 D:\websites\Server\Reactive\Reactive.BL.Main\bin\Debug\Common.pdb
+C:\Websites\Reactive-web\Reactive.BL.Main\bin\Debug\Reactive.BL.Main.dll.config
+C:\Websites\Reactive-web\Reactive.BL.Main\bin\Debug\Reactive.BL.Main.dll
+C:\Websites\Reactive-web\Reactive.BL.Main\bin\Debug\Reactive.BL.Main.pdb
+C:\Websites\Reactive-web\Reactive.BL.Main\bin\Debug\Common.dll
+C:\Websites\Reactive-web\Reactive.BL.Main\bin\Debug\Newtonsoft.Json.dll
+C:\Websites\Reactive-web\Reactive.BL.Main\bin\Debug\Common.pdb
+C:\Websites\Reactive-web\Reactive.BL.Main\bin\Debug\Newtonsoft.Json.xml
+C:\Websites\Reactive-web\Reactive.BL.Main\obj\Debug\Reactive.BL.Main.csprojResolveAssemblyReference.cache
+C:\Websites\Reactive-web\Reactive.BL.Main\obj\Debug\Reactive.BL.Main.dll
+C:\Websites\Reactive-web\Reactive.BL.Main\obj\Debug\Reactive.BL.Main.pdb
+C:\Websites\Reactive-web\Reactive.BL.Main\bin\Debug\Reactive.DAL.Main.dll
+C:\Websites\Reactive-web\Reactive.BL.Main\bin\Debug\Reactive.DAL.Main.pdb
+C:\Websites\Reactive-web\Reactive.BL.Main\bin\Debug\Reactive.DAL.Main.dll.config

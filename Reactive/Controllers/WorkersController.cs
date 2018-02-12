@@ -12,8 +12,8 @@ namespace Reactive.Controllers
         // GET: api/Workers
         public IEnumerable<Worker> Get()
         {
-            Workers workers = new Workers();
-            return workers.GetWorkers();
+            Workers workers = new Workers(); //TODO!: Unity Container -> web.config / resolve
+            return workers.GetData();
         }
 
         // GET: api/Workers/5

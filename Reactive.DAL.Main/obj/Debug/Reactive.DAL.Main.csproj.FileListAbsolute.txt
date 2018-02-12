@@ -16,3 +16,17 @@ D:\websites\Server\Reactive\Reactive.DAL.Main\bin\Debug\Reactive.BL.Main.pdb
 D:\websites\Server\Reactive\Reactive.DAL.Main\bin\Debug\Reactive.BL.Main.dll.config
 D:\websites\Server\Reactive\Reactive.DAL.Main\bin\Debug\Common.pdb
 D:\websites\Server\Reactive\Reactive.DAL.Main\bin\Debug\Newtonsoft.Json.xml
+C:\Websites\Reactive-web\Reactive.DAL.Main\obj\Debug\Reactive.DAL.Main.csprojResolveAssemblyReference.cache
+C:\Websites\Reactive-web\Reactive.DAL.Main\obj\Debug\Reactive.DAL.Main.dll
+C:\Websites\Reactive-web\Reactive.DAL.Main\obj\Debug\Reactive.DAL.Main.pdb
+C:\Websites\Reactive-web\Reactive.DAL.Main\bin\Debug\Reactive.DAL.Main.dll.config
+C:\Websites\Reactive-web\Reactive.DAL.Main\bin\Debug\Reactive.DAL.Main.dll
+C:\Websites\Reactive-web\Reactive.DAL.Main\bin\Debug\Reactive.DAL.Main.pdb
+C:\Websites\Reactive-web\Reactive.DAL.Main\bin\Debug\EntityFramework.dll
+C:\Websites\Reactive-web\Reactive.DAL.Main\bin\Debug\EntityFramework.SqlServer.dll
+C:\Websites\Reactive-web\Reactive.DAL.Main\bin\Debug\Common.dll
+C:\Websites\Reactive-web\Reactive.DAL.Main\bin\Debug\Newtonsoft.Json.dll
+C:\Websites\Reactive-web\Reactive.DAL.Main\bin\Debug\EntityFramework.xml
+C:\Websites\Reactive-web\Reactive.DAL.Main\bin\Debug\EntityFramework.SqlServer.xml
+C:\Websites\Reactive-web\Reactive.DAL.Main\bin\Debug\Common.pdb
+C:\Websites\Reactive-web\Reactive.DAL.Main\bin\Debug\Newtonsoft.Json.xml

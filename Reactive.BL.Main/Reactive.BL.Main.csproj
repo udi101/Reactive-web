@@ -56,6 +56,10 @@
       <Project>{d3f33837-1314-4c88-affd-530123c288ac}</Project>
       <Name>Reactive.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Reactive.DAL.Main\Reactive.DAL.Main.csproj">
+      <Project>{b39b545b-7677-4235-916c-92ee914c5bac}</Project>
+      <Name>Reactive.DAL.Main</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
