@@ -15,7 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactive.Common", "Common\R
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{481A52D7-4AC7-4811-A796-85682F31B23D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactive.DAL.Main", "Reactive.DAL.Main\Reactive.DAL.Main.csproj", "{B39B545B-7677-4235-916C-92EE914C5BAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactive.DAL.Repository", "Reactive.DAL.Main\Reactive.DAL.Repository.csproj", "{B39B545B-7677-4235-916C-92EE914C5BAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactive.DAL.Interfaces", "Reactive.DAL.Interfaces\Reactive.DAL.Interfaces.csproj", "{0C4FDAB1-99F5-4D9E-AB79-30D466F2C4AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B39B545B-7677-4235-916C-92EE914C5BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B39B545B-7677-4235-916C-92EE914C5BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B39B545B-7677-4235-916C-92EE914C5BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C4FDAB1-99F5-4D9E-AB79-30D466F2C4AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C4FDAB1-99F5-4D9E-AB79-30D466F2C4AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C4FDAB1-99F5-4D9E-AB79-30D466F2C4AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C4FDAB1-99F5-4D9E-AB79-30D466F2C4AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +53,7 @@ Global
 		{419D3F4D-098C-40E0-A5EB-86C84EB197D6} = {1C3349E8-FEAA-4CC3-91C0-87BF55F9A167}
 		{D3F33837-1314-4C88-AFFD-530123C288AC} = {4F0905C8-0BC3-43A4-AAE9-58D1AB565EDD}
 		{B39B545B-7677-4235-916C-92EE914C5BAC} = {481A52D7-4AC7-4811-A796-85682F31B23D}
+		{0C4FDAB1-99F5-4D9E-AB79-30D466F2C4AB} = {481A52D7-4AC7-4811-A796-85682F31B23D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E054C056-5B71-4F64-9FEB-AE20957C7669}

@@ -47,3 +47,5 @@ D:\websites\Server\Reactive-web\Reactive.DAL.Main\obj\Debug\Reactive.DAL.Main.dl
 D:\websites\Server\Reactive-web\Reactive.DAL.Main\obj\Debug\Reactive.DAL.Main.pdb
 D:\websites\Server\Reactive-web\Reactive.DAL.Main\bin\Debug\Dapper.dll
 D:\websites\Server\Reactive-web\Reactive.DAL.Main\bin\Debug\Dapper.xml
+D:\websites\Server\Reactive-web\Reactive.DAL.Main\bin\Debug\Reactive.DAL.Interfaces.dll
+D:\websites\Server\Reactive-web\Reactive.DAL.Main\bin\Debug\Reactive.DAL.Interfaces.pdb

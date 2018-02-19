@@ -4,10 +4,11 @@ using System.IO;
 using Newtonsoft.Json;
 using Common.Entities;
 using Reactive.DAL.Main;
-
+using System.Threading.Tasks;
+using Reactive.BL.Main.Interfaces;
 namespace Reactive.BL.Main
 {
-    public class Workers //TODO! : IWorkers
+    public class Workers : IWorkers
     {
         public IEnumerable<Worker> GetWorkers()
         {
@@ -17,10 +18,10 @@ namespace Reactive.BL.Main
             return workers;
         }
 
-        public IEnumerable<Worker> GetData()
+        public async Task<IEnumerable<Worker>> GetData()
         {
             WorkersDB w = new WorkersDB();
-            return w.GetData();
+            return await w.GetData();
         }
 
     }

@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Web.Http;
 using Reactive.BL.Main;
-using Newtonsoft.Json;
 using Common.Entities;
+using System.Threading.Tasks;
 
 namespace Reactive.Controllers
 {
@@ -10,10 +10,10 @@ namespace Reactive.Controllers
     public class WorkersController : ApiController
     {
         // GET: api/Workers
-        public IEnumerable<Worker> Get()
+        public async Task<IEnumerable<Worker>> Get()
         {
             Workers workers = new Workers(); //TODO!: Unity Container -> web.config / resolve
-            return workers.GetData();
+            return await workers.GetData();
         }
 
         // GET: api/Workers/5

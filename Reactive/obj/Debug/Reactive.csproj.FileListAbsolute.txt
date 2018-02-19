@@ -164,3 +164,8 @@ D:\websites\Server\Reactive-web\Reactive\obj\Debug\Reactive.dll
 D:\websites\Server\Reactive-web\Reactive\obj\Debug\Reactive.pdb
 D:\websites\Server\Reactive-web\Reactive\bin\Dapper.dll
 D:\websites\Server\Reactive-web\Reactive\bin\Dapper.xml
+D:\websites\Server\Reactive-web\Reactive\bin\Reactive.DAL.Interfaces.dll
+D:\websites\Server\Reactive-web\Reactive\bin\Reactive.DAL.Interfaces.pdb
+D:\websites\Server\Reactive-web\Reactive\bin\System.Web.Cors.dll
+D:\websites\Server\Reactive-web\Reactive\bin\System.Web.Http.Cors.dll
+D:\websites\Server\Reactive-web\Reactive\bin\System.Web.Http.Cors.xml

@@ -4,15 +4,13 @@ using System.Data;
 using System.Configuration;
 using Common.Entities;
 using Dapper;
-using System;
-using System.Linq;
-
+using System.Threading.Tasks;
+using Reactive.DAL.Interfaces.Workers;
 namespace Reactive.DAL.Main
 {
-    public class WorkersDB
+    public class WorkersDB : IWorkerRepository
     {
-
-        public IEnumerable<Worker> GetData()
+        public async Task<IEnumerable<Worker>> GetData()
         {
             //TODO!: Infrastructure method that opens connection.
             //Infrastructure - BaseRepository/Dapper - Look in our project on CRUDRepository & DBExecuter
@@ -22,29 +20,21 @@ namespace Reactive.DAL.Main
             using (SqlConnection Conn = new SqlConnection(connectionString))
             {
                 //return await conn.GetAsync<Workers>();
-
-                Conn.Open();
-                return Conn.Query<Worker>("select * from dbo.Workers").ToList();
-
-                //using (SqlCommand Command = new SqlCommand("select * from dbo.Workers", Conn))
-                //{
-                //    Conn.Open();
-                //    SqlDataReader Reader = Command.ExecuteReader();
-                //    while (Reader.Read())
-                //    {
-                //        Result.Add(new Worker() {
-                //            Name = Reader["name"].ToString(),
-                //            Age = Convert.ToInt16(Reader["age"]),
-                //            _MyProperty = Reader["lastName"].ToString()
-                //        });
-                //    }
-                //    Reader.Close();
-                //}
+                if (Conn.State == ConnectionState.Closed)
+                    Conn.Open();
+                return await Conn.QueryAsync<Worker>("select * from dbo.Workers");
             }
-            return Result;
         }
 
-
+        public async Task<Worker> GetWorker()
+        {
+            Worker w1 = new Worker();
+            var t1 = Task.Run(() =>
+            {
+                return new Worker() { Name = "udi", LastName = "Mazor", Age = 43, Salary = 25000 };
+            });
+            return await t1;
+        }
     }
 }
 
