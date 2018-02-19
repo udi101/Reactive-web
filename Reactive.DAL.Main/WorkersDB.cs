@@ -3,7 +3,9 @@ using System.Data.SqlClient;
 using System.Data;
 using System.Configuration;
 using Common.Entities;
+using Dapper;
 using System;
+using System.Linq;
 
 namespace Reactive.DAL.Main
 {
@@ -21,20 +23,23 @@ namespace Reactive.DAL.Main
             {
                 //return await conn.GetAsync<Workers>();
 
-                using (SqlCommand Command = new SqlCommand("select * from dbo.Workers", Conn))
-                {
-                    Conn.Open();
-                    SqlDataReader Reader = Command.ExecuteReader();
-                    while (Reader.Read())
-                    {
-                        Result.Add(new Worker() {
-                            Name = Reader["name"].ToString(),
-                            Age = Convert.ToInt16(Reader["age"]),
-                            _MyProperty = Reader["lastName"].ToString()
-                        });
-                    }
-                    Reader.Close();
-                }
+                Conn.Open();
+                return Conn.Query<Worker>("select * from dbo.Workers").ToList();
+
+                //using (SqlCommand Command = new SqlCommand("select * from dbo.Workers", Conn))
+                //{
+                //    Conn.Open();
+                //    SqlDataReader Reader = Command.ExecuteReader();
+                //    while (Reader.Read())
+                //    {
+                //        Result.Add(new Worker() {
+                //            Name = Reader["name"].ToString(),
+                //            Age = Convert.ToInt16(Reader["age"]),
+                //            _MyProperty = Reader["lastName"].ToString()
+                //        });
+                //    }
+                //    Reader.Close();
+                //}
             }
             return Result;
         }

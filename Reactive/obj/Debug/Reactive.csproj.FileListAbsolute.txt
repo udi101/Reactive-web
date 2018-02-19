@@ -162,3 +162,5 @@ D:\websites\Server\Reactive-web\Reactive\obj\Debug\Reactive.csprojResolveAssembl
 D:\websites\Server\Reactive-web\Reactive\obj\Debug\Reactive.csproj.CoreCompileInputs.cache
 D:\websites\Server\Reactive-web\Reactive\obj\Debug\Reactive.dll
 D:\websites\Server\Reactive-web\Reactive\obj\Debug\Reactive.pdb
+D:\websites\Server\Reactive-web\Reactive\bin\Dapper.dll
+D:\websites\Server\Reactive-web\Reactive\bin\Dapper.xml

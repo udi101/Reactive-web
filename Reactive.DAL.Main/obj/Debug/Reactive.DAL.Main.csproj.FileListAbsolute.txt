@@ -45,3 +45,5 @@ D:\websites\Server\Reactive-web\Reactive.DAL.Main\obj\Debug\Reactive.DAL.Main.cs
 D:\websites\Server\Reactive-web\Reactive.DAL.Main\obj\Debug\Reactive.DAL.Main.csproj.CoreCompileInputs.cache
 D:\websites\Server\Reactive-web\Reactive.DAL.Main\obj\Debug\Reactive.DAL.Main.dll
 D:\websites\Server\Reactive-web\Reactive.DAL.Main\obj\Debug\Reactive.DAL.Main.pdb
+D:\websites\Server\Reactive-web\Reactive.DAL.Main\bin\Debug\Dapper.dll
+D:\websites\Server\Reactive-web\Reactive.DAL.Main\bin\Debug\Dapper.xml
