@@ -169,3 +169,5 @@ D:\websites\Server\Reactive-web\Reactive\bin\Reactive.DAL.Interfaces.pdb
 D:\websites\Server\Reactive-web\Reactive\bin\System.Web.Cors.dll
 D:\websites\Server\Reactive-web\Reactive\bin\System.Web.Http.Cors.dll
 D:\websites\Server\Reactive-web\Reactive\bin\System.Web.Http.Cors.xml
+D:\websites\Server\Reactive-web\Reactive\bin\Reactive.BL.Interfaces.dll
+D:\websites\Server\Reactive-web\Reactive\bin\Reactive.BL.Interfaces.pdb

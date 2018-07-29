@@ -12,7 +12,7 @@ namespace Reactive.Controllers
         // GET: api/Workers
         public async Task<IEnumerable<Worker>> Get()
         {
-            Workers workers = new Workers(); //TODO!: Unity Container -> web.config / resolve
+            WorkerBL workers = new WorkerBL(); //TODO!: Unity Container -> web.config / resolve
             return await workers.GetData();
         }
 

@@ -1,11 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Data;
-using System.Configuration;
-using Common.Entities;
 using Dapper;
+using System.Data;
 using System.Threading.Tasks;
+using System.Configuration;
+
+using Common.Entities;
 using Reactive.DAL.Interfaces.Workers;
+
 namespace Reactive.DAL.Main
 {
     public class WorkersDB : IWorkerRepository
@@ -31,7 +33,7 @@ namespace Reactive.DAL.Main
             Worker w1 = new Worker();
             var t1 = Task.Run(() =>
             {
-                return new Worker() { Name = "udi", LastName = "Mazor", Age = 43, Salary = 25000 };
+                return new Worker() { FirstName = "udi", LastName = "Mazor", Age = 43, Salary = 25000 };
             });
             return await t1;
         }

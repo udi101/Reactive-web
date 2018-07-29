@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Web.Hosting;
-using System.IO;
 using Newtonsoft.Json;
 using Common.Entities;
 using Reactive.DAL.Main;
 using System.Threading.Tasks;
-using Reactive.BL.Main.Interfaces;
+using Reactive.BL.Interfaces;
+
 namespace Reactive.BL.Main
 {
-    public class Workers : IWorkers
+    public class WorkerBL: IWorkerBL
     {
         public IEnumerable<Worker> GetWorkers()
         {

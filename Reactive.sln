@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactive.DAL.Repository", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactive.DAL.Interfaces", "Reactive.DAL.Interfaces\Reactive.DAL.Interfaces.csproj", "{0C4FDAB1-99F5-4D9E-AB79-30D466F2C4AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactive.BL.Interfaces", "Reactive.BL.Interfaces\Reactive.BL.Interfaces.csproj", "{C6C08D3A-3097-4345-83CB-8DF7BA1FE3EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{0C4FDAB1-99F5-4D9E-AB79-30D466F2C4AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C4FDAB1-99F5-4D9E-AB79-30D466F2C4AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C4FDAB1-99F5-4D9E-AB79-30D466F2C4AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C08D3A-3097-4345-83CB-8DF7BA1FE3EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C08D3A-3097-4345-83CB-8DF7BA1FE3EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C08D3A-3097-4345-83CB-8DF7BA1FE3EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C08D3A-3097-4345-83CB-8DF7BA1FE3EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 		{D3F33837-1314-4C88-AFFD-530123C288AC} = {4F0905C8-0BC3-43A4-AAE9-58D1AB565EDD}
 		{B39B545B-7677-4235-916C-92EE914C5BAC} = {481A52D7-4AC7-4811-A796-85682F31B23D}
 		{0C4FDAB1-99F5-4D9E-AB79-30D466F2C4AB} = {481A52D7-4AC7-4811-A796-85682F31B23D}
+		{C6C08D3A-3097-4345-83CB-8DF7BA1FE3EC} = {1C3349E8-FEAA-4CC3-91C0-87BF55F9A167}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E054C056-5B71-4F64-9FEB-AE20957C7669}

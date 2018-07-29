@@ -1,0 +1,8 @@
+D:\websites\Server\Reactive-web\Reactive.BL.Interfaces\bin\Debug\Reactive.BL.Interfaces.dll
+D:\websites\Server\Reactive-web\Reactive.BL.Interfaces\bin\Debug\Reactive.BL.Interfaces.pdb
+D:\websites\Server\Reactive-web\Reactive.BL.Interfaces\bin\Debug\Common.dll
+D:\websites\Server\Reactive-web\Reactive.BL.Interfaces\bin\Debug\Common.pdb
+D:\websites\Server\Reactive-web\Reactive.BL.Interfaces\obj\Debug\Reactive.BL.Interfaces.csprojResolveAssemblyReference.cache
+D:\websites\Server\Reactive-web\Reactive.BL.Interfaces\obj\Debug\Reactive.BL.Interfaces.csproj.CoreCompileInputs.cache
+D:\websites\Server\Reactive-web\Reactive.BL.Interfaces\obj\Debug\Reactive.BL.Interfaces.dll
+D:\websites\Server\Reactive-web\Reactive.BL.Interfaces\obj\Debug\Reactive.BL.Interfaces.pdb
